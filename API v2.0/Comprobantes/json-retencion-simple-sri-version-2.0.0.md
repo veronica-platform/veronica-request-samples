@@ -1,3 +1,5 @@
+[POST: /api/v2.0/comprobantes/comprobantes-retencion](#)
+```json
 {
     "ruc":"XXXXXXXXXXXXX",
     "secuencial":"000000001",
@@ -58,3 +60,4 @@
        }
     ]
  }
+ ```

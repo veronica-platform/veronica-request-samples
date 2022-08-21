@@ -1,3 +1,5 @@
+[POST: /api/v2.0/comprobantes/facturas](#)
+```json
 {
     "version":"1.0.0",
     "fechaEmision":"20/08/2022",
@@ -48,3 +50,4 @@
        }
     ]
  }
+ ```
