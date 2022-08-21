@@ -1,4 +1,4 @@
-[POST: /api/v2.0/comprobantes/comprobantes-retencion](#)
+[POST: /api/v1.0/sri](#)
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <comprobanteRetencion id="comprobante" version="2.0.0">
