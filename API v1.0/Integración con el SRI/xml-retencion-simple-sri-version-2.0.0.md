@@ -1,0 +1,69 @@
+[POST: /api/v2.0/comprobantes/comprobantes-retencion](#)
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<comprobanteRetencion id="comprobante" version="2.0.0">
+	<infoTributaria>
+		<ambiente>1</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>String</razonSocial>
+		<nombreComercial>String</nombreComercial>
+		<ruc>XXXXXXXXXXXXX</ruc>
+		<codDoc>07</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000000001</secuencial>
+		<dirMatriz>String</dirMatriz>
+		<agenteRetencion>1</agenteRetencion>
+	</infoTributaria>
+	<infoCompRetencion>
+		<fechaEmision>20/08/2022</fechaEmision>
+		<dirEstablecimiento>String</dirEstablecimiento>
+		<obligadoContabilidad>SI</obligadoContabilidad>
+		<tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+		<parteRel>NO</parteRel>
+		<razonSocialSujetoRetenido>String</razonSocialSujetoRetenido>
+		<identificacionSujetoRetenido>XXXXXXXXXXXXX</identificacionSujetoRetenido>
+		<periodoFiscal>07/2022</periodoFiscal>
+	</infoCompRetencion>
+	<docsSustento>
+		<docSustento>
+			<codSustento>02</codSustento>
+			<codDocSustento>01</codDocSustento>
+			<numDocSustento>001001000009817</numDocSustento>
+			<fechaEmisionDocSustento>25/07/2022</fechaEmisionDocSustento>
+			<fechaRegistroContable>25/07/2022</fechaRegistroContable>
+			<numAutDocSustento>1128619857</numAutDocSustento>
+			<pagoLocExt>01</pagoLocExt>
+			<totalSinImpuestos>281.00</totalSinImpuestos>
+			<importeTotal>281.00</importeTotal>
+			<impuestosDocSustento>
+				<impuestoDocSustento>
+					<codImpuestoDocSustento>2</codImpuestoDocSustento>
+					<codigoPorcentaje>0</codigoPorcentaje>
+					<baseImponible>281.00</baseImponible>
+					<tarifa>0</tarifa>
+					<valorImpuesto>0</valorImpuesto>
+				</impuestoDocSustento>
+			</impuestosDocSustento>
+			<retenciones>
+				<retencion>
+					<codigo>1</codigo>
+					<codigoRetencion>312</codigoRetencion>
+					<baseImponible>281.00</baseImponible>
+					<porcentajeRetener>1.75</porcentajeRetener>
+					<valorRetenido>4.92</valorRetenido>
+				</retencion>
+			</retenciones>
+			<pagos>
+				<pago>
+					<formaPago>20</formaPago>
+					<total>281.00</total>
+				</pago>
+			</pagos>
+		</docSustento>
+	</docsSustento>
+	<infoAdicional>
+		<campoAdicional nombre="Email">XXXXX@gmail.com</campoAdicional>
+	</infoAdicional>
+</comprobanteRetencion>
+```
