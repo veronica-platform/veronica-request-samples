@@ -1,5 +1,5 @@
 [POST: /api/v2.0/comprobantes/facturas](#)
-Factura electrónica con un único detalle al cual se le aplica un impuesto de 0%.
+Factura electrónica con más de un detalle.
 ```json
 {
     "version": "1.0.0",
@@ -20,11 +20,40 @@ Factura electrónica con un único detalle al cual se le aplica un impuesto de 0
         {
             "codigoPrincipal": "1000",
             "codigoAuxiliar": "0",
+            "cantidad": 500,
+            "descripcion": "CONSULTA OFTALMOLOGICA",
+            "precioUnitario": 3.90,
+            "descuento": 0.00,
+            "impuesto": [
+                {
+                    "codigo": "2",
+                    "codigoPorcentaje": "2",
+                    "tarifa": 12
+                }
+            ]
+        },
+        {
+            "codigoPrincipal": "1000",
+            "codigoAuxiliar": "0",
+            "cantidad": 500,
+            "descripcion": "CONSULTA OFTALMOLOGICA",
+            "precioUnitario": 29.00,
+            "descuento": 0.00,
+            "impuesto": [
+                {
+                    "codigo": "2",
+                    "codigoPorcentaje": "2",
+                    "tarifa": 12
+                }
+            ]
+        },
+        {
+            "codigoPrincipal": "1000",
+            "codigoAuxiliar": "0",
             "cantidad": 1,
             "descripcion": "CONSULTA OFTALMOLOGICA",
-            "precioUnitario": 50.00,
+            "precioUnitario": 120.00,
             "descuento": 0.00,
-            "detAdicional": [],
             "impuesto": [
                 {
                     "codigo": "2",
@@ -37,17 +66,13 @@ Factura electrónica con un único detalle al cual se le aplica un impuesto de 0
     "moneda": "DOLAR",
     "pagos": [
         {
-            "formaPago": "01",
-            "total": 50.00,
-            "plazo": "",
-            "unidadTiempo": ""
+            "formaPago": "20",
+            "total": 18544,
+            "plazo": "1",
+            "unidadTiempo": "Días"
         }
     ],
     "campoAdicional": [
-        {
-            "nombre": "Telefono",
-            "value": "2784632"
-        },
         {
             "nombre": "Email",
             "value": "pruebas@veronica.ec"
