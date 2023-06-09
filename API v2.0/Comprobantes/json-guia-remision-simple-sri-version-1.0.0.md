@@ -1,5 +1,4 @@
 [POST: /api/v2.0/comprobantes/guias-remision](#)
-Factura electrónica con un único detalle al cual se le aplica un impuesto de 0%.
 
 ```json
 {
