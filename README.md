@@ -1,4 +1,4 @@
-# Ejemplos de requests | Verónica API
+# Ejemplos de requests
 
 ![Verónica Logo](https://veronica.ec/media/logo-dark.png)
 
