@@ -10,6 +10,8 @@ Bienvenido al repositorio del Proyecto Verónica API. Este proyecto proporciona 
   - [Versión 1.0](#)
     - [Comprobantes](#)
       - [Facturas](#)
+        - [Factura de venta](#)
   - [Versión 2.0](#)
     - [Comprobantes](#)
       - [Facturas](#)
+        - [Factura de venta](#)
