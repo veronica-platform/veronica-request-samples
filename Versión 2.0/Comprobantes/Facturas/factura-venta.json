@@ -1,0 +1,47 @@
+{
+    "version": "1.0.0",
+    "fechaEmision": "28/08/2023",
+    "codDoc": "01",
+    "ruc": "0000000000000",
+    "estab": "001",
+    "ptoEmi": "001",
+    "secuencial": "000000001",
+    "receptor": {
+      "tipoIdentificacion": "04",
+      "identificacion": "9999999999999",
+      "razonSocial": "RAZÓN SOCIAL COMPRADOR",
+      "direccion": "DIRECCIÓN COMPRADOR",
+      "propina": 0
+    },
+    "detalles": [
+      {
+        "codigoPrincipal": "COD001",
+        "cantidad": 2,
+        "descripcion": "RUFFLES PICANTE",
+        "precioUnitario": 9.65,
+        "descuento": 2.89,
+        "impuesto": [
+          {
+            "codigo": "2",
+            "codigoPorcentaje": "0",
+            "tarifa": 12
+          }
+        ]
+      }
+    ],
+    "moneda": "DOLAR",
+    "pagos": [
+      {
+        "formaPago": "01",
+        "total": 18.38,
+        "plazo": "1",
+        "unidadTiempo": "DIAS"
+      }
+    ],
+    "campoAdicional": [
+      {
+        "nombre": "emailCliente",
+        "value": "sample@veronica.ec"
+      }
+    ]
+  }

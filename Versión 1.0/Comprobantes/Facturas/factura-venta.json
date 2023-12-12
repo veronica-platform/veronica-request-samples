@@ -1,0 +1,75 @@
+{
+    "id": "comprobante",
+    "version": "1.0.0",
+    "infoTributaria": {
+        "ambiente": "1",
+        "codDoc": "01",
+        "ruc": "0000000000000",
+        "estab": "001",
+        "ptoEmi": "001",
+        "secuencial": "000000001",
+        "nombreComercial": "VERONICA API",
+        "razonSocial": "VERONICA API",
+        "dirMatriz": "DIRECCIÓN DE EJEMPLO",
+        "tipoEmision": "1",
+        "contribuyenteRimpe": null,
+        "agenteRetencion": null,
+        "regimenMicroempresas": null
+    },
+    "infoFactura": {
+        "contribuyenteEspecial": null,
+        "dirEstablecimiento": "DIRECCIÓN DE ESTABLECIMIENTO",
+        "direccionComprador": "DIRECCIÓN COMPRADOR",
+        "fechaEmision": "28/08/2023",
+        "identificacionComprador": "9999999999999",
+        "importeTotal": 18.38,
+        "moneda": "DOLAR",
+        "obligadoContabilidad": "NO",
+        "pago": [
+            {
+                "formaPago": "01",
+                "plazo": "1",
+                "total": 18.38,
+                "unidadTiempo": "DIAS"
+            }
+        ],
+        "propina": 0,
+        "razonSocialComprador": "RAZÓN SOCIAL COMPRADOR",
+        "tipoIdentificacionComprador": "04",
+        "totalDescuento": 2.89,
+        "totalImpuesto": [
+            {
+                "codigo": "2",
+                "codigoPorcentaje": "2",
+                "baseImponible": 16.41,
+                "valor": 1.97
+            }
+        ],
+        "totalSinImpuestos": 16.41
+    },
+    "detalle": [
+        {
+            "codigoPrincipal": "COD001",
+            "descripcion": "RUFFLES PICANTE",
+            "cantidad": 2,
+            "precioUnitario": 9.65,
+            "descuento": 2.89,
+            "precioTotalSinImpuesto": 16.41,
+            "impuesto": [
+                {
+                    "codigo": "2",
+                    "codigoPorcentaje": "2",
+                    "tarifa": 12,
+                    "baseImponible": 16.41,
+                    "valor": 1.97
+                }
+            ]
+        }
+    ],
+    "campoAdicional": [
+        {
+            "nombre": "emailCliente",
+            "value": "sample@veronica.ec"
+        }
+    ]
+}
