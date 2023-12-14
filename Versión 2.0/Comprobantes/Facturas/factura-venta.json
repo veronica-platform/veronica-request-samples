@@ -23,7 +23,7 @@
         "impuesto": [
           {
             "codigo": "2",
-            "codigoPorcentaje": "0",
+            "codigoPorcentaje": "2",
             "tarifa": 12
           }
         ]
