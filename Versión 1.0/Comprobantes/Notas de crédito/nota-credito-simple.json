@@ -1,0 +1,69 @@
+{
+    "id": "comprobante",
+    "version": "1.0.0",
+    "infoTributaria": {
+        "ambiente": "1",
+        "codDoc": "04",
+        "ruc": "0000000000000",
+        "estab": "001",
+        "ptoEmi": "001",
+        "secuencial": "000000101",
+        "nombreComercial": "VERONICA API",
+        "razonSocial": "VERONICA API",
+        "dirMatriz": "DIRECCIÓN DE EJEMPLO",
+        "tipoEmision": "1",
+        "contribuyenteRimpe": null,
+        "agenteRetencion": null,
+        "regimenMicroempresas": null
+    },
+    "infoNotaCredito": {
+        "contribuyenteEspecial": null,
+        "dirEstablecimiento": "DIRECCIÓN DE ESTABLECIMIENTO",
+        "fechaEmision": "28/08/2023",
+        "totalSinImpuestos": 47.00,
+        "moneda": "DOLAR",
+        "obligadoContabilidad": "SI",
+        "tipoIdentificacionComprador": "04",
+        "identificacionComprador": "9999999999999",
+        "razonSocialComprador": "RAZÓN SOCIAL COMPRADOR",
+        "codDocModificado": "01",
+        "numDocModificado": "001-003-000018475",
+        "fechaEmisionDocSustento": "14/09/2023",
+        "motivo": "DEVOLUCION",
+        "totalImpuesto": [
+            {
+                "codigo": "2",
+                "codigoPorcentaje": "0",
+                "baseImponible": 47.00,
+                "valor": 0
+            }
+        ],
+        "valorModificacion": 47.00
+    },
+    "detalle": [
+        {
+            "cantidad": 1,
+            "codigoAuxiliar": "0",
+            "codigoPrincipal": "RXMI022",
+            "descripcion": "RUFFLES PICANTE",
+            "descuento": 0,
+            "impuesto": [
+                {
+                    "codigo": "2",
+                    "codigoPorcentaje": "0",
+                    "tarifa": 0,
+                    "baseImponible": 47.00,
+                    "valor": 0
+                }
+            ],
+            "precioTotalSinImpuesto": 47.00,
+            "precioUnitario": 47.00
+        }
+    ],
+    "campoAdicional": [
+        {
+            "nombre": "emailCliente",
+            "value": "sample@veronica.ec"
+        }
+    ]
+}

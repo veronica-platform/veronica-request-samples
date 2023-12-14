@@ -21,7 +21,6 @@
         "dirEstablecimiento": "DIRECCIÓN DE ESTABLECIMIENTO",
         "direccionComprador": "DIRECCIÓN COMPRADOR",
         "fechaEmision": "28/08/2023",
-        "identificacionComprador": "9999999999999",
         "importeTotal": 18.38,
         "moneda": "DOLAR",
         "obligadoContabilidad": "NO",
@@ -34,8 +33,9 @@
             }
         ],
         "propina": 0,
-        "razonSocialComprador": "RAZÓN SOCIAL COMPRADOR",
+        "identificacionComprador": "9999999999999",
         "tipoIdentificacionComprador": "04",
+        "razonSocialComprador": "RAZÓN SOCIAL COMPRADOR",
         "totalDescuento": 2.89,
         "totalImpuesto": [
             {
