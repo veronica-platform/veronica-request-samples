@@ -1,19 +1,16 @@
-[POST: /api/v2.0/comprobantes/facturas](#)
-Factura electrónica de devolución.
-```json
 {
     "version": "1.0.0",
     "fechaEmision": "30/03/2021",
     "codDoc": "01",
-    "ruc": "XXXXXXXXXXXXX",
+    "ruc": "0000000000000",
     "estab": "001",
     "ptoEmi": "001",
-    "secuencial": "000003519",
+    "secuencial": "000000001",
     "receptor": {
         "tipoIdentificacion": "04",
         "identificacion": "9999999999999",
-        "razonSocial": "PRUEBAS UNITARIAS - VERONICA - RAZÓN SOCIAL",
-        "direccion": "PRUEBAS UNITARIAS - VERONICA - DIRECCIÓN PRINCIPAL",
+        "razonSocial": "RAZÓN SOCIAL COMPRADOR",
+        "direccion": "DIRECCIÓN COMPRADOR",
         "propina": 0
     },
     "detalles": [
@@ -46,7 +43,7 @@ Factura electrónica de devolución.
             "ptoEmiDocReembolso": "002",
             "secuencialDocReembolso": "000000034",
             "fechaEmisionDocReembolso": "15/06/2022",
-            "numeroAutorizacionDocReemb": "1506202201179271197500120010020000000341234567811",
+            "numeroAutorizacionDocReemb": "0000000000000000000000000000000000000000000000000",
             "detalleImpuesto": [
                 {
                     "codigo": "2",
@@ -66,7 +63,7 @@ Factura electrónica de devolución.
             "ptoEmiDocReembolso": "002",
             "secuencialDocReembolso": "000000034",
             "fechaEmisionDocReembolso": "15/06/2022",
-            "numeroAutorizacionDocReemb": "1506202201179271197500120010020000000341234567811",
+            "numeroAutorizacionDocReemb": "0000000000000000000000000000000000000000000000000",
             "detalleImpuesto": [
                 {
                     "codigo": "2",
@@ -87,9 +84,12 @@ Factura electrónica de devolución.
     ],
     "campoAdicional": [
         {
+            "nombre": "emailCliente",
+            "value": "sample@veronica.ec"
+        },
+        {
             "nombre": "Descripción",
             "value": "REEMBOLSO COMBUSTIBLE"
         }
     ]
 }
- ```
