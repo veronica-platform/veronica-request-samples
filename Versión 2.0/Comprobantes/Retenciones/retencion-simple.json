@@ -38,10 +38,6 @@
         {
             "nombre": "emailCliente",
             "value": "sample@veronica.ec"
-        },
-        {
-            "nombre": "Email",
-            "value": "Pruebas veronica"
         }
     ]
 }
